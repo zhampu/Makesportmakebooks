@@ -55,8 +55,6 @@ function setup() {
   changerimage(1);
   changertexte(1);
   noCanvas();
-
-
 }
 
 function draw() {}
