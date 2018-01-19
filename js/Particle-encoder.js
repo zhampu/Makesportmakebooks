@@ -48,12 +48,12 @@ function setup() {
 function draw() {}
 
 function callEncoderAPI() {
-  var url = 'https://api.particle.io/v1/devices/1e0030000247353137323334/encodervalue?access_token=4a36d8b4e1854f68c01a4e56bbc946264fbe0661'
+  var url = 'https://api.particle.io/v1/devices/1e0030000247353137323334/encodervalue?access_token=b303a5bd3e3d83f7eb559ef56730c7bef81a845d'
   loadJSON(url, parseEncoderData);
 }
 
 function callEncoder2API() {
-  var url = 'https://api.particle.io/v1/devices/330024001347343438323536/encodervalue?access_token=4a36d8b4e1854f68c01a4e56bbc946264fbe0661'
+  var url = 'https://api.particle.io/v1/devices/330024001347343438323536/encodervalue?access_token=b303a5bd3e3d83f7eb559ef56730c7bef81a845d'
   loadJSON(url, parseEncoder2Data);
 }
 
@@ -237,32 +237,6 @@ if ('webkitSpeechRecognition' in window) {
         console.log("il a dit " + maRegex + " !!!");
 
         window.print();
-
-        // var doc = new jsPDF();
-        // var specialElementHandlers = {
-        //     '#editor': function (element, renderer) {
-        //         return true;
-        //     }
-        // };
-        //
-        //     doc.fromHTML($('#content').html(), 15, 15, {
-        //         'width': 170,
-        //             'elementHandlers': specialElementHandlers
-        //     });
-        //     doc.save('sample-file.pdf');
-        //
-        //     return false;
-
-
-        // var text = new SpeechSynthesisUtterance('make sport make books!');
-        // speechSynthesis.speak(text);
-        // speechSynthesis.cancel();
-        // return false;
-
-
-
-
-
 
 
 
