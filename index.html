@@ -3,35 +3,26 @@
 
 <head>
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-        }
-    </style>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:600,700,800" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="js/jquery.marquee.js"></script>
     <script src="js/p5.min.js"></script>
-    <script src="js/p5.dom.min.js"></script>
-    <script src="js/p5.sound.min.js"></script>
-    <script src="js/Particle-encoder.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/paper.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/annyang.js"></script>
+    <title>make-book-make-sport</title>
 </head>
 
 <div class="marquee">
     <div class="track">
-        <div class="content">&nbsp;make-book-make-sport</div>
+        <div class="content">
+            make-book-make-sport-make-book-make-sport-make-book-make-sport-make-book-make-sport-make-book-make-sport-make-book-make-sport-make-book-make-sport-make-book-make-sport-make-book-make-sport-make-book-make-sport-make-book-make-sport
+        </div>
     </div>
 </div>
 
 
 <!--<div data-speed="1000" data-direction="right" class='marquee'>make-book-make-sport.</div>-->
-<body id="content" class="A4 landscape" onload="startButton(event)">
+<body id="content" class="A4 landscape">
 
 <!-- Each sheet element should have the class "sheet" -->
 <!-- "padding-**mm" is optional: you can set 10, 15, 20 or 25 -->
@@ -39,12 +30,9 @@
     <h3>make-book-make-sport</h3>
     <!-- Write HTML just like a web page -->
 
-
     <div class="column">
-
-
         <img style="display: none" src="images/1.jpg">
-        <!-- <img style="display: none" src="images/2.jpg"> -->
+         <img style="display: none" src="images/2.jpg">
         <img style="display: none" src="images/3.jpg">
         <img style="display: none" src="images/4.jpg">
         <img style="display: none" src="images/5.jpg">
@@ -185,67 +173,60 @@
 
     </div>
 
-    <div class="column">
-        <p style="display:none" class="grandote">NO PRODUCTION WITHOUT A NEED. BUT CONSUMPTION REPRODUCES THE
+    <div class="column text-column">
+        <p style="display:none" class="text-item">NO PRODUCTION WITHOUT A NEED. BUT CONSUMPTION REPRODUCES THE
             NEED</p>
-        <p style="display:none" class="grandote">I HAVE OFTEN REGRETTED MY SPEECH, NEVER MY SILENCE</p>
-        <p style="display:none" class="grandote">WISE MEN LEARN MORE FROM FOOLS THAN FOOLS LEARN FROM WISE MEN</p>
-        <p style="display:none" class="grandote">THERE ARE WORSE THINGS IN LIFE THAN DEATH. HAVE YOU EVER SPENT AN
+        <p style="display:none" class="text-item">I HAVE OFTEN REGRETTED MY SPEECH, NEVER MY SILENCE</p>
+        <p style="display:none" class="text-item">WISE MEN LEARN MORE FROM FOOLS THAN FOOLS LEARN FROM WISE MEN</p>
+        <p style="display:none" class="text-item">THERE ARE WORSE THINGS IN LIFE THAN DEATH. HAVE YOU EVER SPENT AN
             EVENING WITH AN INSURANCE SALESMAN?</p>
-        <p style="display:none" class="grandote">I RATHER DIE ENORMOUS THAN LIVE DORMANT</p>
-        <p style="display:none" class="grandote">IF YOU CANNOT GET RID OF THE SKELETON IN YOUR CLOSET, YOU BEST
+        <p style="display:none" class="text-item">I RATHER DIE ENORMOUS THAN LIVE DORMANT</p>
+        <p style="display:none" class="text-item">IF YOU CANNOT GET RID OF THE SKELETON IN YOUR CLOSET, YOU BEST
             TEACH IT TO DANCE</p>
-        <p style="display:none" class="grandote">THE MOST EFFECTIVE WAY TO DO IT, IS TO DO IT</p>
-        <p style="display:none" class="grandote">EVERYTHING YOU HAVE EVER WANTED IS ON THE OTHER SIDE OF FEAR</p>
-        <p style="display:none" class="grandote">IF I WERE TWO FACED, WOULD I BE WEARING THIS ONE?</p>
-        <p style="display:none" class="grandote">IF YOU HAVE A TALENT, USE IT IN EVERY WHICH WAY POSSIBLE. DO NOT
-            HOARD IT. DO NOT DOLE IT OUT LIKE A MISER. SPEND IT LAVISHLY LIKE A MILLIONAIRE INTENT ON GOING
-            BROKE</p>
-        <p style="display:none" class="grandote">I LOOKED ALWAYS OUTSIDE OF MYSELF TO SEE WHAT I COULD MAKE THE
+        <p style="display:none" class="text-item">THE MOST EFFECTIVE WAY TO DO IT, IS TO DO IT</p>
+        <p style="display:none" class="text-item">EVERYTHING YOU HAVE EVER WANTED IS ON THE OTHER SIDE OF FEAR</p>
+        <p style="display:none" class="text-item">IF I WERE TWO FACED, WOULD I BE WEARING THIS ONE?</p>
+        <p style="display:none" class="text-item">I LOOKED ALWAYS OUTSIDE OF MYSELF TO SEE WHAT I COULD MAKE THE
             WORLD GIVE ME INSTEAD OF LOOKING WITHIN MYSELF TO SEE WHAT WAS THERE</p>
-        <p style="display:none" class="grandote">PEOPLE OFTEN SAY THAT MOTIVATION DOES NOT LAST. WELL, NEITHER DOES
+        <p style="display:none" class="text-item">PEOPLE OFTEN SAY THAT MOTIVATION DOES NOT LAST. WELL, NEITHER DOES
             BATHING. THAT IS WHY WE RECOMMEND IT DAILY</p>
-        <p style="display:none" class="grandote">ONLY THOSE WHO PLAY WIN. ONLY THOSE WHO RISK WIN. HISTORY FAVORS
+        <p style="display:none" class="text-item">ONLY THOSE WHO PLAY WIN. ONLY THOSE WHO RISK WIN. HISTORY FAVORS
             RISK-TAKERS. FORGETS THE TIMID. EVERYTHING ELSE IS COMMENTARY</p>
-        <p style="display:none" class="grandote">ALL GROWN-UPS WERE ONCE CHILDREN BUT ONLY FEW OF THEM REMEMBER
+        <p style="display:none" class="text-item">ALL GROWN-UPS WERE ONCE CHILDREN BUT ONLY FEW OF THEM REMEMBER
             IT</p>
-        <p style="display:none" class="grandote">BE NICE TO PEOPLE ON YOUR WAY UP BECAUSE YOU MEET THEM ON YOUR WAY
+        <p style="display:none" class="text-item">BE NICE TO PEOPLE ON YOUR WAY UP BECAUSE YOU MEET THEM ON YOUR WAY
             DOWN</p>
-        <p style="display:none" class="grandote">DO NOT SPOIL WHAT YOU HAVE BY DESIRING WHAT YOU HAVE NOT; BUT
-            REMEMBER THAT WHAT YOU NOW HAVE WAS ONCE AMONG THE THINGS YOU ONLY HOPED FOR</p>
-        <p style="display:none" class="grandote">IF YOU ARE GOING THROUGH HELL, KEEP GOING</p>
-        <p style="display:none" class="grandote">SUCCESS USUALLY COMES TO THOSE WHO ARE TOO BUSY TO BE LOOKING FOR
+
+        <p style="display:none" class="text-item">IF YOU ARE GOING THROUGH HELL, KEEP GOING</p>
+        <p style="display:none" class="text-item">SUCCESS USUALLY COMES TO THOSE WHO ARE TOO BUSY TO BE LOOKING FOR
             IT</p>
-        <p style="display:none" class="grandote">I WILL SLEEP WHEN I'M DEAD</p>
-        <p style="display:none" class="grandote">VICTORY GOES TO THE PLAYER WHO MAKES THE NEXT TO LAST MISTAKE</p>
-        <p style="display:none" class="grandote">I DO NOT HAVE A LOT OF RESPECT FOR TALENT. TALENT IS GENETIC. ITS
+        <p style="display:none" class="text-item">I WILL SLEEP WHEN I'M DEAD</p>
+        <p style="display:none" class="text-item">VICTORY GOES TO THE PLAYER WHO MAKES THE NEXT TO LAST MISTAKE</p>
+        <p style="display:none" class="text-item">I DO NOT HAVE A LOT OF RESPECT FOR TALENT. TALENT IS GENETIC. ITS
             WHAT YOU DO WITH IT THAT COUNTS</p>
-        <p style="display:none" class="grandote">WHEN CHOOSING BETWEEN TWO EVILS, I ALWAYS LIKE TO TRY THE ONE I
+        <p style="display:none" class="text-item">WHEN CHOOSING BETWEEN TWO EVILS, I ALWAYS LIKE TO TRY THE ONE I
             HAVE NEVER TRIED BEFORE</p>
-        <p style="display:none" class="grandote">A FRIENDSHIP FOUNDED ON BUSINESS IS BETTER THAN A BUSINESS FOUNDED
+        <p style="display:none" class="text-item">A FRIENDSHIP FOUNDED ON BUSINESS IS BETTER THAN A BUSINESS FOUNDED
             ON FRIENDSHIP</p>
-        <p style="display:none" class="grandote">HOW VAIN IT IS TO SIT DOWN TO WRITE WHEN YOU HAVE NOT STOOD UP TO
+        <p style="display:none" class="text-item">HOW VAIN IT IS TO SIT DOWN TO WRITE WHEN YOU HAVE NOT STOOD UP TO
             LIVE</p>
-        <p style="display:none" class="grandote">STRIVE NOT TO BE A SUCCESS, BUT RATHER TO BE OF VALUE</p>
-        <p style="display:none" class="grandote">THE KEY IS TO KEEP COMPANY ONLY WITH PEOPLE WHO UPLIFT YOU, WHOSE
+        <p style="display:none" class="text-item">STRIVE NOT TO BE A SUCCESS, BUT RATHER TO BE OF VALUE</p>
+        <p style="display:none" class="text-item">THE KEY IS TO KEEP COMPANY ONLY WITH PEOPLE WHO UPLIFT YOU, WHOSE
             PRESENCE CALLS FORTH YOUR BEST</p>
-        <p style="display:none" class="grandote">WELL DONE IS BETTER THAN WELL SAID</p>
-        <p style="display:none" class="grandote">ALL ANIMALS ARE EQUAL, BUT SOME ANIMALS ARE MORE EQUAL THAN
+        <p style="display:none" class="text-item">WELL DONE IS BETTER THAN WELL SAID</p>
+        <p style="display:none" class="text-item">ALL ANIMALS ARE EQUAL, BUT SOME ANIMALS ARE MORE EQUAL THAN
             OTHERS</p>
-        <p style="display:none" class="grandote">YOU DO NOT HAVE TO DIE IN ORDER TO MAKE A LIVING</p>
-        <p style="display:none" class="grandote">IN THREE WORDS I CAN SUM UP EVERYTHING I HAVE LEARNED ABOUT LIFE:
+        <p style="display:none" class="text-item">YOU DO NOT HAVE TO DIE IN ORDER TO MAKE A LIVING</p>
+        <p style="display:none" class="text-item">IN THREE WORDS I CAN SUM UP EVERYTHING I HAVE LEARNED ABOUT LIFE:
             IT GOES ON</p>
-        <p style="display:none" class="grandote">WHEN CHOOSING BETWEEN TWO EVILS, I ALWAYS LIKE TO TRY THE ONE I
+        <p style="display:none" class="text-item">WHEN CHOOSING BETWEEN TWO EVILS, I ALWAYS LIKE TO TRY THE ONE I
             HAVE NEVER TRIED BEFORE</p>
-        <p style="display:none" class="grandote">MONEY FREES YOU FROM DOING THINGS YOU DISLIKE. SINCE I DISLIKE
+        <p style="display:none" class="text-item">MONEY FREES YOU FROM DOING THINGS YOU DISLIKE. SINCE I DISLIKE
             DOING NEARLY EVERYTHING, MONEY IS HANDY</p>
-        <p style="display:none" class="grandote">CAUSE EVERYBODY KNOWS KEYS OPEN DOORS BUT BRICKS OPEN WINDOWS</p>
+        <p style="display:none" class="text-item">CAUSE EVERYBODY KNOWS KEYS OPEN DOORS BUT BRICKS OPEN WINDOWS</p>
     </div>
 
-
 </section>
-
-
+<script src="js/Particle-encoder.js"></script>
 </body>
-
 </html>
