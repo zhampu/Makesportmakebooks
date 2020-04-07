@@ -29,15 +29,12 @@ Out of the box,should be working.
 
 Keep in mind that the [Web Speech Api](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API) will only work in a HTTPS or in local enviroments
 
-<br/>
-
 ## 3. Credits
 
 **libraries:**
 - [Annyang speech library](https://www.talater.com/annyang/)
 - [P5.js](https://p5js.org/)
 - [Paper.css](https://github.com/papercss/papercss)
-<br/>
 
 ## 4. License
 
