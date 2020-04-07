@@ -21,13 +21,10 @@ for more information:
 
 Download and copy this repository and open ```index.html``` with a browser.
 Use the arrows( up,down,left,right) to choose the text and layout you want. when you feel you like a like layout just say "print" and you could save it to PDF or print it to make a book.
-<br/>
 
 ## 2. Setup
 
-Out of the box,should be working.
-
-Keep in mind that the [Web Speech Api](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API) will only work in a HTTPS or in local enviroments
+Out of the box,should be working. Keep in mind that the [Web Speech Api](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API) will only work in a HTTPS or in local enviroments
 
 ## 3. Credits
 
