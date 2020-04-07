@@ -15,7 +15,6 @@ for more information:
 - [2. Setup](#2-setup)
 - [3. Credits](#3-credits)
 - [4. License](#4-license)
-<br/>
 
 ## 1. Installation
 
